@@ -1,0 +1,20 @@
+.inner-div {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 10%;
+}
+.inner-div a {
+background-color: #135DAE;
+padding: 10px;
+color: white;
+text-decoration: none;
+transition: background-color 1s;
+}
+
+.inner-div a:hover {
+   background-color: #2d74bf; 
+   transition: background-color 1s;
+}
+
+
