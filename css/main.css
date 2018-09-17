@@ -1,9 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
     /*background-color: #111111;*/
-    background-image:url("../img/moon.jpg");
-    background-size:cover;
-    background-position: center center;
     margin: 0px;
     padding: 0px;
 }
@@ -44,9 +41,9 @@ transition: background-color 1s;
     z-index: 1;
     width: 100%;
     height:100vh;
-    background-size: cover;
+    background-image:url("../img/moon.jpg");
+    background-size:cover;
     background-position: center center;
-    background-repeat: no-repeat;
 }
 
 canvas{
