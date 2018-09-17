@@ -1,15 +1,37 @@
-.inner-div {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    padding-top: 10%;
+body {
+    font-family: 'Raleway', sans-serif;
+    /*background-color: #111111;*/
+    background-image:url("../img/moon.jpg");
+    background-size:cover;
+    background-position: center center;
+    margin: 0px;
+    padding: 0px;
 }
+
+@media screen and (min-width:990px) and (max-width:1440px)
+{
+    .inner-div {
+        z-index: 10;
+        position: absolute;
+        width: auto;
+        height: auto;
+        left:35%;
+        top:22%;
+        text-align: center;
+    }
+}
+
 .inner-div a {
 background-color: #135DAE;
 padding: 10px;
+letter-spacing: .8px;
 color: white;
 text-decoration: none;
 transition: background-color 1s;
+}
+
+.inner-div h3 {
+    color:white;
 }
 
 .inner-div a:hover {
@@ -17,4 +39,20 @@ transition: background-color 1s;
    transition: background-color 1s;
 }
 
+#particles-js
+{
+    z-index: 1;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+canvas{
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    height:100vh;
+}
 
