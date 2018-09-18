@@ -3,33 +3,38 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>NASA - API</title>
+    <title>Astronomy Picture Of A Day</title>
     <link rel="shortcut icon" href="index.png" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/apod.css"/>
+        <!-- Scripts & Shit -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
 </head>
 <body>
-    <b>API URL:</b>
-    <pre id="reqObject"></pre>
-    
-    
-    <img id="apod_img_id" width="250px"/>
-    
-    <iframe id="apod_vid_id" type="text/html" width="640" height="385" frameborder="0"></iframe>
-    <p id="copyright"></p>
-    
-    <h3 id="apod_title"></h3>
-    <p id="apod_explaination"></p>
-    <br/>
-    <b>Return Object:</b>
-    <pre id="returnObject"></pre>
+    <div class="outer">
+        <div class="row">
+            <div class="col-xs-12 col-md-6 col-lg-6 left">
+                <b>Astronomy Picture/Video Of The Day</b>
+                <p id="apod_date"></p>              
+                <img id="apod_img_id" width="200px"/> 
+                <div class="embed-responsive embed-responsive-16by9">          
+                    <iframe id="apod_vid_id" type="text/html" class="embed-responsive-item" frameborder="0"  allowfullscreen></iframe>
+                </div>
+                <p id="copyright"></p>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-6 right">
+                <h3 id="apod_title"></h3>
+                <p id="apod_explaination"></p>
+            </div>
+        </div>
+        
+    </div>
+    <!--<b>Return Object:</b>
+    <pre id="returnObject"></pre>-->
 
-    <!-- Scripts & Shit -->
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script async src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js" integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
-    <script async src="particles.js-master/particles.min.js"></script>
-    <script async src="js/main.js"></script>
 </body>
 </html>

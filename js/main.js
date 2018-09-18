@@ -25,6 +25,7 @@ $(document).ready(function(){
         $("#returnObject").text(JSON.stringify(result, null, 4));  
         $("#apod_explaination").text(result.explanation);
         $("#apod_title").text(result.title);
+        $('#apod_date').text(result.date);
       }
       });
 
