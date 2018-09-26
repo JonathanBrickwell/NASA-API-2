@@ -1,0 +1,45 @@
+.submit-btn {
+    background-color: #135dae;
+    padding: 6px;
+    letter-spacing: .5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 1s;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+.slika {
+    width: 65%;
+}
+
+body {
+    background-color: black;
+}
+
+.inner-mine {
+    padding: 30% 0% 0% 20%;    
+}
+
+.desno {
+    text-align: center;
+}
+
+input.box {
+    border: 0px;
+    border-bottom: 1px solid#135dae;
+    background-color: transparent !important;
+}
+
+input:focus {
+    border-top: none !important;
+    border-right: none !important;
+    border-left: 0px !important;
+    border-bottom: 1px solid#135dae !important;
+    
+}
