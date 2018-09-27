@@ -23,7 +23,7 @@ body {
 }
 
 .inner-mine {
-    padding: 30% 0% 0% 20%;    
+    padding: 25% 0% 0% 20%;    
 }
 
 .desno {
@@ -40,6 +40,11 @@ input:focus {
     border-top: none !important;
     border-right: none !important;
     border-left: 0px !important;
-    border-bottom: 1px solid#135dae !important;
+    border-bottom: 2px solid#135dae !important;
     
+}
+
+.asteroids-output
+{
+    background-color: white;
 }

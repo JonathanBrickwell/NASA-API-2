@@ -19,11 +19,12 @@
         <div class="row">
             <div class="col-xs-12 col-md-6 col-lg-6 left">
                 <div class="inner-mine">
-                    <h3>Unesite vremenski period od 7 dana.</h3>
+                    <h3>Enter a time period (max 7 days) for a list of near earth objects</h3> 
+                    <h3>Format : YYYY-MM-DD</h3>
                     <form action="/index.html">
-                        <h3>Od : <input class="box" type="text"><br></h3>
+                        <h3>From : <input class="box" type="text"><br></h3>
                         <br>
-                        <h3>Do : <input class="box" type="text"><br></h3>
+                        <h3>To : <input class="box" type="text"><br></h3>
                         <br>
                         <input class="submit-btn" type="submit" value="Submit">
                     </form>
@@ -35,8 +36,18 @@
         </div>
         
     </div>
-    <!--<b>Return Object:</b>
-    <pre id="returnObject"></pre>-->
+    <div class="container asteroids-output">
+        <div class="col-xs-12 col-md-12 col-lg-12">
+            <div class="inner">
+                <h5 class="asteroidDisplay">Name of the Asteroid #1 :</h5>
+                <p id="nameOf"></p>
+                <b>Return Object:</b>
+                <pre id="returnObject"></pre>
+            </div>
+        </div>
+    </div>
+    
 
+<script type="text/javascript" src="js/asteroids.js"></script>
 </body>
 </html>
