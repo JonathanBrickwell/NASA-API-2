@@ -22,3 +22,7 @@ body {
 p, h3, b {
     color:white;
 }
+
+.left img{
+    width:100%;
+}

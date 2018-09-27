@@ -19,6 +19,7 @@ $(document).ready(function(){
         }
         else {
           $("#apod_vid_id").css("display", "none"); 
+          $(".embed-responsive").css("display", "none");
           $("#apod_img_id").attr("src", result.url);
         }
         $("#reqObject").text(url);
