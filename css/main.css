@@ -73,3 +73,26 @@ canvas{
         text-align: center;
     }
 }
+
+
+table {
+    width: 75%;
+    background-color:#fff;
+    border-collapse: collapse;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 6px #ccc;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+td {
+    padding: 8px 5px;
+    text-align: left;
+}
+
+.something {
+    padding-left: 20%;
+    padding-top: 15%;
+}
