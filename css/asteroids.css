@@ -44,7 +44,7 @@ input:focus {
     
 }
 
-.asteroids-output
+.asteroidDisplay
 {
-    background-color: white;
+    color:white;
 }
